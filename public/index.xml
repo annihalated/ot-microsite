@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Organ Transplantation in India</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Organ Transplantation in India</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Mar 2024 05:59:28 +0530</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Datasets</title>
+      <link>//localhost:1313/datasets/</link>
+      <pubDate>Thu, 07 Mar 2024 05:59:28 +0530</pubDate>
+      <guid>//localhost:1313/datasets/</guid>
+      <description>[Insert information about GOTD datasets as well as interactive charts]</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/legal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/legal/</guid>
+      <description>Collected legal provisions and sources for updated versions</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/working-papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/working-papers/</guid>
+      <description>Vidhi working papers as well as other reports on this subject.</description>
+    </item>
+    <item>
+      <title>Introduction</title>
+      <link>//localhost:1313/problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/problem/</guid>
+      <description>This project aims to resolve those anomalies and make brain death declaration legal and practicable. We want brain death declaration to be legally valid, practically feasible, and socially accepted among doctors.&#xA;It is unclear whether “brain death” is death in all instances, or only for the purposes of organ transplantation. it is unclear how deaths may be declared. It is unclear when such deaths may be declared. It is unclear what the consequences of such a declaration are.</description>
+    </item>
+  </channel>
+</rss>
