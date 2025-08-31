@@ -1,8 +1,0 @@
-# Hugo build output
-/public/
-
-# OS and editor files
-.DS_Store
-*.swp
-*.swo
-
