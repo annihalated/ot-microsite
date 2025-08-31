@@ -1,6 +1,6 @@
-{{ define "main" }}
-<main>
-    <h1>{{.Title}}</h1>
+{{define "main"}}
+<main class="main-content">
+    {{if .Title}}<h1>{{.Title}}</h1>{{end}}
     {{.Content}}
 </main>
-{{ end }}
+{{end}}

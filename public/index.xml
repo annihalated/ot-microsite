@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Organ Transplantation in India</title>
+    <title>Organ Transplantation in India on Organ Transplantation</title>
     <link>//localhost:1313/</link>
-    <description>Recent content on Organ Transplantation in India</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Organ Transplantation in India on Organ Transplantation</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Mar 2024 05:59:28 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Contribute</title>
+      <link>//localhost:1313/contribute/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/contribute/</guid>
+      <description>&lt;p&gt;This is a side project with no funding or staff. Contributions are welcome but I can&amp;rsquo;t promise quick responses or that everything will be used.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-would-be-helpful&#34;&gt;What Would Be Helpful&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Better data sources&lt;/strong&gt;&#xA;If you know of reliable organ transplantation datasets I&amp;rsquo;ve missed, especially from hospitals or state governments.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Corrections&lt;/strong&gt;&#xA;Point out factual errors, broken links, or outdated information.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Missing resources&lt;/strong&gt;&#xA;Key papers, reports, or websites that should be included.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ground-level insights&lt;/strong&gt;&#xA;How transplantation laws actually work in practice. What doctors worry about legally. Barriers patients face.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Datasets</title>
       <link>//localhost:1313/datasets/</link>
       <pubDate>Thu, 07 Mar 2024 05:59:28 +0530</pubDate>
       <guid>//localhost:1313/datasets/</guid>
-      <description>[Insert information about GOTD datasets as well as interactive charts]</description>
+      <description>&lt;p&gt;[Insert information about GOTD datasets as well as interactive charts]&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
       <link>//localhost:1313/legal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/legal/</guid>
-      <description>Collected legal provisions and sources for updated versions</description>
+      <description>&lt;p&gt;Collected legal provisions and sources for updated versions&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
       <link>//localhost:1313/working-papers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/working-papers/</guid>
-      <description>Vidhi working papers as well as other reports on this subject.</description>
-    </item>
-    <item>
-      <title>Introduction</title>
-      <link>//localhost:1313/problem/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/problem/</guid>
-      <description>This project aims to resolve those anomalies and make brain death declaration legal and practicable. We want brain death declaration to be legally valid, practically feasible, and socially accepted among doctors.&#xA;It is unclear whether “brain death” is death in all instances, or only for the purposes of organ transplantation. it is unclear how deaths may be declared. It is unclear when such deaths may be declared. It is unclear what the consequences of such a declaration are.</description>
+      <description>&lt;p&gt;Vidhi working papers as well as other reports on this subject.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

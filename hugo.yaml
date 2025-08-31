@@ -1,0 +1,35 @@
+baseURL: "ot.nihalsahu.net/"
+languageCode: en-us
+defaultContentLanguage: en
+title: Organ Transplantation
+description: OT OT OT OT
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: datasets
+      name: Datasets
+      url: /datasets/
+      weight: 3
+    - identifier: legal
+      name: Legal issues
+      url: /legal/
+      weight: 4
+    - identifier: working-papers
+      name: Working papers
+      url: /working-papers/
+      weight: 5
+    - identifier: contribute
+      name: Guide for contributors
+      url: /contribute/
+      weight: 6
+
+permalinks:
+  guides: /:filename/
+  lists: /:filename/
+  writing: /:filename/
+
+markup:
+  defaultMarkdownHandler: goldmark

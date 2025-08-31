@@ -1,42 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title> {{.Title}} </title>
-    <meta name="description" content="{{ if .Description }}{{ .Description }}
-    {{ else }} {{ .Site.Params.description }}{{ end }}">
+    <title>{{.Title}}</title>
+    <meta name="description" content="{{with .Description}}{{.}}{{else}}{{.Site.Params.description}}{{end}}">
     <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {{/*  <link rel="apple-touch-icon" sizes="180x180"  href="/card.png"> 
-    <link rel="icon" type="image/png" sizes="32x32" href="/card.png"> 
-    <link rel="icon" type="image/png" sizes="16x16"  href="/card.png">   */}}
     
-    <!-- Facebook Open Graph tags -->
-    <meta property="og:url" content="{{ .Site.BaseURL}}" />
-    <meta property="og:title" content="{{ .Title }}" />
-    <meta property="og:description" content="{{ if .Description }}{{ .Description }}
-    {{ else }} {{ .Site.Params.description }}{{ end }}" />
-    {{/*  <meta property="og:image" content="https://joodaloop.com/card.png" />  */}}
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{.Title}}">
+    <meta property="og:description" content="{{with .Description}}{{.}}{{else}}{{.Site.Params.description}}{{end}}">
+    <meta property="og:url" content="{{.Site.BaseURL}}">
     
-    <!-- Twitter Card (large image card) tags -->
-    {{/*  <meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@joodalooped">
-    <meta name="twitter:title" content="{{ .Title }}">
-    <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}
-    {{ else }} {{ .Site.Params.description }}{{ end }}" />
-    <meta name="twitter:image" content="https://joodaloop.com/card.png" />  */}}
-    
-    <link rel="alternate" type="application/rss+xml" 
-      title="RSS Feed for {{ .Site.Title }}." 
-      href="/index.xml" />
-    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    <link rel="alternate" type="application/rss+xml" title="{{.Site.Title}} RSS" href="/index.xml">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
-
 <body>
-    {{ partial "sidebar" . }}
-    {{ block "main" .}}
-    {{ end }}
+    {{partial "sidebar" .}}
+    {{block "main" .}}{{end}}
 </body>
 </html>
