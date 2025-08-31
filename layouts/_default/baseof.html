@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +16,16 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    {{partial "sidebar" .}}
-    {{block "main" .}}{{end}}
+    <nav class="navbar">
+        <a href="/" class="navbar-brand">{{.Site.Title}}</a>
+        <ul class="navbar-nav">
+        {{range .Site.Menus.main}}
+        <li><a href="{{.URL}}">{{.Name}}</a></li>
+        {{end}}
+        </ul>
+    </nav>
+    <main class="main-content">
+        {{block "main" .}}{{end}}
+    </main>
 </body>
 </html>
