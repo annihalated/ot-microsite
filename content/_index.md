@@ -9,7 +9,7 @@ This site collects useful resources in one place. It's a side project by an indi
 ## What's Here
 
 **Numbers and data sources**
-Links to datasets from NOTTO, SOTTOs, state societies, and hospitals. Many are poorly maintained, but some show increasing donation rates since 2013.
+Links to datasets from NOTTO, SOTTOs, state societies, and hospitals. 
 
 **Policy questions** 
 Notes on what affects successful transplantations: hospital capacity, trained specialists, legal frameworks, social attitudes, and physician incentives.
