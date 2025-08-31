@@ -1,4 +1,4 @@
-baseURL: "ot.nihalsahu.net/"
+baseURL: "/"
 languageCode: en-us
 defaultContentLanguage: en
 title: Organ Transplantation in India
@@ -25,11 +25,6 @@ menu:
       name: Guide for contributors
       url: /contribute/
       weight: 6
-
-permalinks:
-  guides: /:filename/
-  lists: /:filename/
-  writing: /:filename/
 
 markup:
   defaultMarkdownHandler: goldmark
